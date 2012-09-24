@@ -1,6 +1,6 @@
 class squid::service {
-  service { 'squid': 
+  service { 'squid':
     ensure => 'running',
-    enable => 'true',
+    enable => true,
   }
 }
